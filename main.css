@@ -1,0 +1,74 @@
+*{box-sizing: border-box;
+    margin: 0;padding: 0
+    ;}
+h1{color: blue; margin-left: 500px;}
+
+#esporte h2 {color:rgba(0,255, 0, 1.5); margin-right: 20px;}
+
+#economia h2{color: orange;margin-right: 20px;}
+
+#entretedimento h2{color:palevioletred;margin-right: 20px;}
+
+#Tecnologia h2{color: brown;margin-right: 20px;}
+
+.hora-atual{color:black;}
+header li {display: inline;font-family: Arial, Helvetica, sans-serif;font-weight: bolder;;}
+
+
+header li a {color: #000;text-decoration: none;margin-left: 85%;;}    
+body > header{background-color: bisque; padding: 10px 0;
+columns:#f5f6fa
+;}
+
+header .container  {display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.container  { display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto 0 auto;
+}
+.article{display: flex;flex-wrap: wrap;
+    justify-content: space-between;}
+.article img {
+    /*height: 180px;*/
+    width:200%;
+}
+.article{
+    width: 30%;
+
+}
+section{padding: 16px 0;}
+section h2,.article{margin-bottom: 16px;}
+.article {margin-top: 16px;margin-bottom: 16px;}
+ #esporte .article a{background-color:rgba(0,255, 0, 0.8);color:#000;font-weight: bolder; margin-top: 8px;
+padding: 5px; display: inline-block; text-decoration: none;}
+#esporte .article a:hover{text-decoration: underline;}
+
+.article p ,.article a {font-family: Arial, Helvetica, sans-serif;}
+
+.article h3 {font-size: 24px;} 
+
+section h2{font-size: 32px;}
+
+#esporte{background-color: rgba(0,255, 0, 0.1);}
+#entretedimento{background-color: pink;}
+#Tecnologia{background-color:burlywood;}
+#economia{background-color: #fffa65;}
+
+#economia .article a{background-color:#ff9f1a;color:#000;font-weight: bolder; margin-top: 8px;
+    padding: 5px; display: inline-block; text-decoration: none;}
+    #economia .article a:hover{text-decoration: underline;}
+
+    #entretedimento .article a{background-color:rgb(209, 60, 85);color:#000;font-weight: bolder; margin-top: 8px;
+        padding: 5px; display: inline-block; text-decoration: none;}
+        #economia .article a:hover{text-decoration: underline;}
+
+        #Tecnologia .article a{background-color:rgb(209, 60, 85);color:#000;font-weight: bolder; margin-top: 8px;
+            padding: 5px; display: inline-block; text-decoration: none;}
+            #Tecnologia .article a:hover{text-decoration: underline;}
+
+
+    
